@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deda’s Burgeria</title>
+    <link rel="icon" type="image/x-icon" href="./res/img/dedas.jpg">
+    <link rel="stylesheet" href="./res/css/style.css">
+</head>
+<body>
+
+    <img src="./res/img/dedas.jpg" id="logenzie">
+    <button onclick="Outside()" id="clicker">PLAY</button>
+
+    <p id="Welcome">Welcome to Deda’s Burgeria Game</p>
+    <img src="./res/img/restaurace.png" id="restaurace">
+    <button onclick="Inside()" id="vchod">ENTER</button>
+
+    <div id="burgers">
+    <button id="small" onclick="Small()">Small Burger - 5$</button>
+    <img src="res/img/small.png">
+    <button id="medium" onclick="Medium()">Medium Burger - 10$</button>
+    <img src="res/img/medium.png">
+    <button id="large" onclick="Large()">Large Burger - 20$</button>
+    <img src="res/img/large.png">
+    <button id="luxury" onclick="Luxury()">Luxury Burger - 100$</button>
+    <img src="./res/img/luxury.png" id="luxusak">
+    </div>
+
+    <div id="text">Zdravíčko, který burger si dneska dáš? Ano čteš správně máme teď omezené množství :( Náš kuchař Fanda Ramstain zemřel v autonehodě (měl v sobě 10 promile alkoholu). Takže odteď tu dělám burgery jen já. Dobrou chuť přeji. </div>
+
+    <p id="hunger"></p>
+
+    <button onclick="Pracicka()" id="jobos">PRACE</button>
+
+    <img src="./res/img/checkout.png" alt="" id="check">
+    <img src="./res/img/kuchar.png" alt="" id="kuchar">
+
+    <img src="res/img/sidejob.png" id="sidejob">
+    <div id="work">
+    <p id="counter">0</p>
+    <button id="prace">KLIKEJ</button>
+    <button onclick="Zpet()" id="back" >BACK</button>
+    </div>
+
+<script src="./res/js/main.js"></script>
+</body>
+</html>
