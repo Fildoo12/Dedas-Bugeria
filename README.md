@@ -1,3 +1,3 @@
-# Dedas-Bugeria
-[PLAY](https://Fildoo12.github.io/Dedas-Bugeria/)
-<h1>EPICKÁ GAMESKA</h1>
+# Dedas-Burgeria
+[PLAY](https://Fildoo12.github.io/Dedas-Burgeria/)
+<p>Grafika byla tvořena AI (né mnou)</p>
